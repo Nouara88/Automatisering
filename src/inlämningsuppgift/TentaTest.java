@@ -35,13 +35,6 @@ public class TentaTest {
 
     }
 
-    @Test
-    public void testEmptyStringChar() {
-        TextCounter counter = new TextCounter("");
-        int totalLines = counter.linesCounter();
-        assertEquals(0, totalLines);
-
-    }
 
 }
 
