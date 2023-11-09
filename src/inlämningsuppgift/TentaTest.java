@@ -28,8 +28,6 @@ public class TentaTest {
 
         int totalChar = counter.charactersCounter();
 
-        int totalLines = counter.linesCounter();
-
         assertEquals(0, totalChar);
 
 
