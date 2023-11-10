@@ -25,7 +25,6 @@ public class TextCounter {
 
         System.out.println("Antal tecken är: " + characters);
         System.out.println("Antal rader är: " + lines);
-        System.out.println("Kaffe är gott :)");
 
     }
 
