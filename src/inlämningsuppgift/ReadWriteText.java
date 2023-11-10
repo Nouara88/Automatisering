@@ -26,7 +26,12 @@ public class ReadWriteText {
 
         }
 
+        // Skapa en instans av TextCounter och skicka med den inmatade texten
+        TextCounter textCounter = new TextCounter(input);
+
+        // Anropa countPrinter-metoden på den skapade instansen
+        textCounter.countPrinter();
+
 
     }
-
-    }
+ }
